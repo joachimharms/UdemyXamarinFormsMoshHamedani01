@@ -15,12 +15,13 @@ namespace S02_L12_SliderApp
 		public GreetPage ()
 		{
 			InitializeComponent ();
+            slider.Value = 0.5;
 
 		}
 
         private void Handle_ValueChanged(object sender, ValueChangedEventArgs e)
         {
-            throw new NotImplementedException();
+            label.Text = String.Format($"The value is {e.NewValue:F2}");
         }
     }
 }

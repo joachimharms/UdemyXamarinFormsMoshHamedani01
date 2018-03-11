@@ -4,10 +4,11 @@
              x:Class="S02_L12_SliderApp.GreetPage">
     
         <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-            <Label Text="Hi Joe Dev"
+            <Label x:Name="label"
+                Text="Hi Joe Dev"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-        <Slider ValueChanged="Handle_ValueChanged"/>
+        <Slider ValueChanged="Handle_ValueChanged" x:Name="slider"/>
     </StackLayout>
     
 </ContentPage>
