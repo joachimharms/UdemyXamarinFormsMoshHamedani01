@@ -3,11 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="S02_L15_DataContext.GreetPage">
     <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-        <Label BindingContext="{x:Reference slider}" 
+        <Label BindingContext="{x:Reference slider}"
             x:Name="label"
-            Text="{Binding Value}"
+            Text="{Binding Value, StringFormat='Value is {0:F2}'}"
             Opacity="{Binding Value}"/>
         <Slider x:Name="slider" />
 
-    </StackLayout> 
+    </StackLayout>
 </ContentPage>
