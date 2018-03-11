@@ -2,6 +2,6 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="S01_L04_HelloWorld.GreetPage">
-    <Button HorizontalOptions="Center" VerticalOptions="Center" Text="Click Me" >
+    <Button HorizontalOptions="Center" VerticalOptions="Center" Text="Click Me" Clicked="Foo">
     </Button> 
 </ContentPage>

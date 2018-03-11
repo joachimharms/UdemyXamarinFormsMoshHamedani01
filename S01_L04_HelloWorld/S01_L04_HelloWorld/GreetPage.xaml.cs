@@ -14,10 +14,10 @@ namespace S01_L04_HelloWorld
 	{
 		public GreetPage ()
 		{
-		    //void Handle_Clicked(object sender, System.EventArgs e)
-		    //{
-		    //    throw new NotImplementedException();
-		    //}
+		    void Foo(object sender, EventArgs e)
+            {
+                throw new NotImplementedException();
+            }
 			InitializeComponent ();
             
 		}
