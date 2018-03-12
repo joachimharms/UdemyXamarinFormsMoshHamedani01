@@ -12,6 +12,7 @@ namespace S02_L15_DataContext
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class GreetPage : ContentPage
 	{
+<<<<<<< HEAD
 		public GreetPage ()
 		{
 			InitializeComponent ();
@@ -36,5 +37,12 @@ namespace S02_L15_DataContext
 
 
 		}
+=======
+        public GreetPage()
+        {
+            InitializeComponent();
+            slider.Value = 0.5;
+        }
+>>>>>>> 9802210a6be1bfd417401c8d3fe133a2d5422a44
 	}
 }

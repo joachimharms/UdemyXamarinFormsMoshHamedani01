@@ -2,12 +2,20 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="S02_L15_DataContext.GreetPage">
+<<<<<<< HEAD
     <StackLayout HorizontalOptions="Center">
         <Label BindingContext="{x:Reference slider}"
             x:Name="label"
             Text="{Binding Value, StringFormat='Value is {0:F2}'}"
             Opacity="{Binding Value}"/>
+=======
+    <StackLayout BindingContext="{x:Reference slider}" HorizontalOptions="Center" VerticalOptions="Center">
+        <BoxView Color="Red" Opacity="{Binding Value}"/>
+        <Label 
+            Text="{Binding Value, StringFormat='The Value is {0:F2}'}"
+            Opacity="{Binding Value}"
+            />
+>>>>>>> 9802210a6be1bfd417401c8d3fe133a2d5422a44
         <Slider x:Name="slider" />
-
     </StackLayout>
 </ContentPage>
